@@ -1,0 +1,17 @@
+:root {
+    --color-green-: green;
+}
+
+:root {
+    --color-red-: red;
+}
+
+body>div {
+    width: 350px;
+    height: 220px;
+    background: var(--color-green-);
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: 2px solid;
+    border-color: var(--color-red-);
+}
